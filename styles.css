@@ -54,7 +54,7 @@ img {
 }
 
 .image-gallery img:nth-child(-n+2) {
-    flex: 1 1 calc(50% - 10px); /* Estilo para as duas primeiras imagens na galeria */
+    flex: 1 1 calc(25% - 10px); /* Estilo para as duas primeiras imagens na galeria */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
