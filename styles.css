@@ -53,10 +53,16 @@ img {
     gap: 10px;
 }
 
-.image-gallery img {
-    flex: 1 1 calc(25% - 10px); /* Estilo para todas as imagens na galeria */
+.image-gallery img:nth-child(-n+2) {
+    flex: 1 1 calc(50% - 10px); /* Estilo para as duas primeiras imagens na galeria */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.image-gallery img:nth-last-child(-n+2) {
+    flex: 1 1 calc(10% - 10px); /* Estilo para as duas últimas imagens na galeria */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 
 footer {
