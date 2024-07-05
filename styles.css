@@ -54,9 +54,10 @@ img {
 }
 
 .image-gallery img {
-    flex: 1 1 calc(50% - 10px);
+    flex: 1 1 calc(25% - 10px); /* Estilo para todas as imagens na galeria */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 footer {
     background: #264653;
